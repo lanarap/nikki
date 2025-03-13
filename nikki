@@ -50,7 +50,7 @@ config mixin 'mixin'
 	option tcp_keep_alive_idle '600'
 	option tcp_keep_alive_interval '15'
 	option ui_path 'ui'
-	option ui_url 'https://github.com/MetaCubeX/Yacd-meta/archive/refs/heads/gh-pages.zip'
+	option ui_url 'https://gh-proxy.com/https://github.com/MetaCubeX/Yacd-meta/archive/refs/heads/gh-pages.zip'
 	option selection_cache '1'
 	option allow_lan '1'
 	option http_port '8080'
@@ -194,44 +194,7 @@ config nameserver_policy
 	list nameserver '119.29.29.29'
 
 config subscription
-	option name '聚合机场'
+	option name 'dm'
 	option url '1'
 	option user_agent 'clash.meta'
 	option prefer 'remote'
-
-config subscription
-	option name '火烧云'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-	option url '1'
-
-config subscription
-	option name '糖果'
-	option url '1'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-
-config subscription
-	option name '猫耳'
-	option url '1'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-
-config subscription
-	option name '快猫'
-	option url '1'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-
-config subscription
-	option name '红杏'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-	option url '1'
-
-config subscription
-	option name '牛逼'
-	option url '1'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-
